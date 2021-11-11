@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="../js/variables.js" defer></script>
+    <script src="../js/shoppingCart.js" defer></script>
+    <title>Velas Tana</title>
+</head>
+<body>
+    <header>
+        <div class="header-section container">
+            <a href="../index.html">
+                <img class="logo" src="../media/logo.png" alt="logo velas tana">
+            </a>
+            <h1>TIENDA ONLINE</h1>
+            <div>
+                <img class="logo-cart" src="../media/cart.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main class="contactMain">
+        <section>
+            <div class="btn-whatsapp">
+                <a href="https://api.whatsapp.com/send?phone=1165104024" target="_blank">
+                <img src="http://s2.accesoperu.com/logos/btn_whatsapp.png" alt="">
+                </a>
+            </div>
+        </section>
+        <form action="" method="POST" id="form">
+            <h2 class="bg">Ya casi esta listo, registrese</h2>
+                <div class="form">
+                    <div class="formData">
+                        <input type="text" name="" id="name" class="contactInput" ><span class="barra"></span>
+                        <label for="" class="contactLabel">Nombre</label>
+                    </div>
+                    <div class="formData">
+                        <input type="email" name="" id="email" class="contactInput" ><span class="barra"></span>
+                        <label for="" class="contactLabel">Email</label>
+                    </div>
+                    <div class="formData">
+                        <input type="password" name="" id="password" class="contactInput" ><span class="barra"></span>
+                        <label for="" class="contactLabel">Password</label>
+                    </div>
+                    <div class="formData">
+                        <input type="cel" name="" id="celphone" class="contactInput" ><span class="barra"></span>
+                        <label for="" class="contactLabel">Teléfono</label>
+                    </div>
+                    <div class="formData">
+                      <h4>Seleccione método de pago</h4>
+                            <select name='payment'>
+                            <option value=''>Seleccione</option>
+                            <option>Ninguno</option>
+                            <option >Mercado pago</option>
+                            <option>Transferencia bancaria</option>
+                            </select>
+                     </div>
+                    
+                    <button type="submit" id="endShopping">Finalizar compra</button>
+                    <p class="warnings" id="warnings"></p>
+                </div>
+            </form>
+    </main>
+    <footer class="footer">
+        <h4>© 2021 Copyright:</h4>
+        <p class="text-white">Velas Tana. Todos los derechos reservados.</p> 
+     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
+</body>
+</html>
